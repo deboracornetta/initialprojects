@@ -1,6 +1,5 @@
 # Accept two int values from the user and return their product.
 # If the product is greater than 1000, then return their sum
-import time
 
 def get1st():
     # ask for 1st value.
