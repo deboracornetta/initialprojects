@@ -4,8 +4,8 @@ import time
 
 def get1st():
     # ask for 1st value.
-    print('''Hey, did you know I'm good with math operations?
-Come on, give me a number, any number, but don't crazy!''')
+    print('''Hey, did you know I'm good with math operations?\n'''
+          '''Come on, give me a number, any number, but don't crazy!''')
     firstValue = int(input())
     while firstValue > 1000 or firstValue < 0:
         print("I said don't go crazy. Give a number between 0 - 1000, please")
